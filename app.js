@@ -1,0 +1,10 @@
+const express = require('express');
+const app = express();
+const path = require('path');
+const port = 3030;
+
+app.get("/",  (req,res) => {
+    return res.sendFile(path.join(__dirname,'views', 'home.html'));
+})
+app.listen(port,  () => console.log(`Servidor funcionando en el puerto: http://hostlocal:${port}`));
+
