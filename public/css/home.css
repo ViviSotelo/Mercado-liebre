@@ -1,0 +1,61 @@
+body.home{
+    background-color: var(--colorAmarillo);
+}
+.buscar{
+    position: absolute;
+}
+.lupa{
+    width: 20;
+    padding: 5px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 5px;
+    
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.subti{
+    font-size: 14px;
+    margin: 26px;
+}
+h2.titulares {
+    font-family: 'robot';
+    font-size: 24px;
+}
+.burger-menu button {
+   /*  text-align: center; */
+  
+    width: 50px;
+    padding: 5px;
+    font-size: 32px;
+    background-color: var(--colorAzul);
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    margin: 0px auto 30px;
+    display: block;
+}
+section article p.precio{
+    font-size: 18px;
+}
+section article p.desc, section article p.nombre{
+    font-size: 16px;
+}
+.button-pie {
+    width: 40px;
+    padding: 0px;
+    padding-top: 40px;
+    font-size: 2em;
+    margin: 10px;
+    background-color: var(--colorAmarillo);
+    border: none;
+    color : var(--colorAzul)
+}
+.pie{
+    text-align: center;
+}

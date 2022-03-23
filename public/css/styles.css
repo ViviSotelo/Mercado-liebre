@@ -1,3 +1,4 @@
-body{
-    background-color: #EAC926;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Roboto:wght@300;400&family=Work+Sans&display=swap');
+@import './generales.css';
+@import './home.css';
+@import './variables.css';
