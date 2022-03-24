@@ -1,8 +1,14 @@
-body.home{
-    background-color: var(--colorAmarillo);
+/* header */
+.home{
+    background-color: var(--colorGrisclaro);
 }
-.buscar{
-    position: absolute;
+
+.home header{
+    background-color: var(--colorAmarillo);
+    padding-bottom: 20px;
+}
+.buscador{
+    margin-left: 20px;
 }
 .lupa{
     width: 20;
@@ -15,13 +21,14 @@ body.home{
 }
 a{
     text-decoration: none;
+    color: black;
 }
 li{
     list-style: none;
 }
 .subti{
     font-size: 14px;
-    margin: 26px;
+    text-align: center;
 }
 h2.titulares {
     font-family: 'robot';
@@ -33,12 +40,22 @@ h2.titulares {
     width: 50px;
     padding: 5px;
     font-size: 32px;
-    background-color: var(--colorAzul);
+    background-color: var(--colorCeleste);
     color: white;
     border: none; 
     border-radius: 5px;
     margin: 0px auto 30px;
     display: block;
+    margin-bottom: 1px;
+}
+
+.fa-id-card, .fa-right-to-bracket, .fa-basket-shopping{
+margin-left: 5px;
+}
+
+/* main */
+main{
+    
 }
 section article p.precio{
     font-size: 18px;
@@ -46,15 +63,20 @@ section article p.precio{
 section article p.desc, section article p.nombre{
     font-size: 16px;
 }
+
+/* footer */
+footer{
+    background-color: white;
+}
 .button-pie {
     width: 40px;
     padding: 0px;
     padding-top: 40px;
     font-size: 2em;
     margin: 10px;
-    background-color: var(--colorAmarillo);
+    background-color: white;
     border: none;
-    color : var(--colorAzul)
+    color : var(--colorCeleste);
 }
 .pie{
     text-align: center;
