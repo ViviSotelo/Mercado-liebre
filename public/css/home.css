@@ -6,13 +6,18 @@
 .home header{
     background-color: var(--colorAmarillo);
     
+    
+}
+.logo{
+    width: 200px;
+    margin: 20px;
 }
 .buscador{
     margin-left: 20px;
     display: inline;
 }
 .lupa{
-    width: 20;
+    width: 20px;
     padding: 0px;
     font-size: 15px;
     background-color: white;
@@ -36,7 +41,7 @@ li{
     text-align: center;
 }
 h2.titulares {
-    font-family: 'robot';
+    /* font-family: 'robot'; */
     font-size: 24px;
 }
 .burger-menu button {
@@ -110,6 +115,7 @@ section article p.nombre{
 /* footer */
 footer{
     background-color: white;
+    /* margin: 20px; */
 }
 .button-pie {
     width: 40px;
@@ -121,8 +127,17 @@ footer{
     border: none;
     color : var(--colorCeleste);
 }
+.pie section p{
+    margin-left: 25px;
+    width: 90%;
+}
 .pie{
     text-align: center;
+    
+    
+}
+.footer__copyright{
+    text-align: start;
 }
 /*  mobile */
 @media (min-width: 320px){
@@ -136,6 +151,11 @@ footer{
 
 /* tablets */
 @media (min-width: 425px){
+    .buscador{
+        margin-left: -225px;
+        display: inline;
+    }
+
     header section nav {
         display: inline-block;
     }
