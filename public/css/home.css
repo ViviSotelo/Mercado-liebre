@@ -1,0 +1,178 @@
+/* header */
+.home{
+    background-color: var(--colorGrisclaro);
+}
+
+.home header{
+    background-color: var(--colorAmarillo);
+    
+    
+}
+.logo{
+    width: 200px;
+    margin: 20px;
+}
+.buscador{
+    margin-left: 20px;
+    display: inline;
+}
+.lupa{
+    width: 20px;
+    padding: 0px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline;
+}
+img.home__imagen__banner{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: -4px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.subti{
+    font-size: 14px;
+    text-align: center;
+}
+h2.titulares {
+    /* font-family: 'robot'; */
+    font-size: 24px;
+}
+.burger-menu button {
+   /*  text-align: center; */
+  
+    width: 50px;
+    padding: 5px;
+    font-size: 32px;
+    background-color: var(--colorCeleste);
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    margin: 0px auto 30px;
+    display: block;
+    margin-bottom: 1px;
+}
+
+.fa-id-card, .fa-right-to-bracket, .fa-basket-shopping{
+margin-left: 5px;
+}
+
+/* main */
+main{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+article{
+    background-color: white;
+    margin-bottom: 10px;
+}
+article img{
+    width: 100%;
+    
+}
+.articleDesc{
+    border-top: 2px var(--colorGrisclaro) solid;
+    padding: 15px;
+}
+button.camion, p.desc {
+    color: var(--colorVerde);
+}
+button.camion {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border-color: var(--colorVerde);
+    background-color: white;
+    
+}
+button.camion i{
+    font-size: 17px;
+    padding-bottom: 18px;
+    padding-right: 8px;
+}
+section article p.precio{
+    font-size: 18px;
+}
+section article p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+section article p.desc, section article p.nombre{
+    font-size: 16px;
+    
+}
+section article p.nombre{
+    margin-top: 10px;
+}
+
+/* footer */
+footer{
+    background-color: white;
+    /* margin: 20px; */
+}
+.button-pie {
+    width: 40px;
+    padding: 0px;
+    padding-top: 40px;
+    font-size: 2em;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    color : var(--colorCeleste);
+}
+.pie section p{
+    margin-left: 25px;
+    width: 90%;
+}
+.pie{
+    text-align: center;
+    
+    
+}
+.footer__copyright{
+    text-align: start;
+}
+/*  mobile */
+@media (min-width: 320px){
+    header section nav {
+        display: none;
+    }
+       p.nombre {
+           display: none;
+       }
+}
+
+/* tablets */
+@media (min-width: 425px){
+    .buscador{
+        margin-left: -225px;
+        display: inline;
+    }
+
+    header section nav {
+        display: inline-block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    p.nombre {
+        display: block;
+    }
+
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+}
+
+/* desktop */
+@media (min-width: 769px){
+   
+}
